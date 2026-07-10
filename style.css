@@ -255,6 +255,12 @@ ul { margin: 0; padding: 0; list-style: none; }
   margin: 0 0 40px;
 }
 
+.hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 40px;
+}
+
 .hero-cta {
   display: inline-block;
   font-family: var(--font-mono);
