@@ -460,6 +460,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 .project-media--full { margin-top: clamp(20px, 3vw, 32px); }
 .project-media--full img { aspect-ratio: 16/8; }
 
+.project-media--stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.project-media--stack img { aspect-ratio: 3/2; }
+
 .project-copy p {
   color: var(--color-ink-soft);
   margin: 0 0 20px;
